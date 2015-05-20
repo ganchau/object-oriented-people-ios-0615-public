@@ -19,6 +19,7 @@
 		4402C9281941FBCC004F1ADE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4402C9101941FBCC004F1ADE /* UIKit.framework */; };
 		4402C9301941FBCC004F1ADE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4402C92E1941FBCC004F1ADE /* InfoPlist.strings */; };
 		4402C9321941FBCC004F1ADE /* PersonTestsSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 4402C9311941FBCC004F1ADE /* PersonTestsSpecs.m */; };
+		BDC805821B0D0A7900A36935 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC805811B0D0A7900A36935 /* Person.m */; };
 		BFD0779E11854AB4A2A01F80 /* libPods-ObjectOrientedPeopleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B67DE49F01DD4D2F9A24308A /* libPods-ObjectOrientedPeopleTests.a */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,8 @@
 		4402C92F1941FBCC004F1ADE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4402C9311941FBCC004F1ADE /* PersonTestsSpecs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonTestsSpecs.m; sourceTree = "<group>"; };
 		B67DE49F01DD4D2F9A24308A /* libPods-ObjectOrientedPeopleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjectOrientedPeopleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC805801B0D0A7900A36935 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		BDC805811B0D0A7900A36935 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		C941BBA589874E0BAF7CFB1F /* Pods-ObjectOrientedPeopleTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectOrientedPeopleTests.xcconfig"; path = "Pods/Pods-ObjectOrientedPeopleTests.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,6 +116,8 @@
 		4402C9121941FBCC004F1ADE /* ObjectOrientedPeople */ = {
 			isa = PBXGroup;
 			children = (
+				BDC805801B0D0A7900A36935 /* Person.h */,
+				BDC805811B0D0A7900A36935 /* Person.m */,
 				4402C91B1941FBCC004F1ADE /* AppDelegate.h */,
 				4402C91C1941FBCC004F1ADE /* AppDelegate.m */,
 				4402C91E1941FBCC004F1ADE /* Images.xcassets */,
@@ -280,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDC805821B0D0A7900A36935 /* Person.m in Sources */,
 				4402C91D1941FBCC004F1ADE /* AppDelegate.m in Sources */,
 				4402C9191941FBCC004F1ADE /* main.m in Sources */,
 			);
